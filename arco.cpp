@@ -3,10 +3,9 @@
 using namespace std;
 
 void arco(int x, int y){
-
     if (x>0 && x<732 && y>0 && y<232)
     {
-        cout <<"GOL";
+    cout <<"GOL";
     }
     else if (x==0 && y<=232)
     {
@@ -20,16 +19,12 @@ void arco(int x, int y){
     {
         cout <<"PALO";
     }
-    
-    else
+        
+    else if (x>732 || y>232 || x<732 || y<232)
     {
         cout <<"AFUERA";
     }
-    
-    
-
 }
-
 int main()
 {
     int a;
